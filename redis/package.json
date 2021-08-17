@@ -17,7 +17,7 @@
   "devDependencies": {
     "metrics": ">=0.1.5",
     "colors": "~0.6.0-1",
-    "underscore": "~1.4.4"
+    "underscore": "~1.12.1"
   },
   "repository": {
     "type": "git",
