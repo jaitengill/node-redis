@@ -10,9 +10,6 @@
     "type": "git",
     "url": "https://github.com/DocuSignDev/node-redis-sentinel-client.git"
   },
-  "dependencies": {
-    "redis": "https://github.com/jaitengill/redis/archive/refs/tags/1.tar.gz"
-  },
   "devDependencies": {
     "mocha": "*",
     "should": "*",

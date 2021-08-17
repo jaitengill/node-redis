@@ -3,11 +3,11 @@ Redis Sentinel client, add-on for node_redis client.
 See readme for details/usage.
 */
 
-var RedisSingleClient = require('redis'),
+var RedisSingleClient = require('./redis'),
     events = require('events'),
     util = require('util'),
-    reply_to_object = require('redis/lib/util.js').reply_to_object,
-    to_array = require('redis/lib/to_array.js'),
+    reply_to_object = require('./redis/lib/util.js').reply_to_object,
+    to_array = require('./redis/lib/to_array.js'),
     commands = RedisSingleClient.commands;
 
 
